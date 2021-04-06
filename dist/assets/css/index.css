@@ -99,9 +99,6 @@ header .nav_menu{
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     color: #FFFFFF;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -161,7 +158,7 @@ header .nav_menu{
     width: 800px;
 }
 
-#home #news_replace .news_container .row {
+#home #news_replace .news_container .news_row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,7 +170,7 @@ header .nav_menu{
     border: 1px solid #111111;
     width: 190px;
     height: 40px;
-    line-height: 0.5em;
+    line-height: 1.5em;
     text-align: center;
     margin: auto;
     margin-top: 40px;
@@ -184,7 +181,7 @@ header .nav_menu{
     border: 1px solid #111111;
     width: 190px;
     height: 40px;
-    line-height: 0.5em;
+    line-height: 1.5em;
     text-align: center;
     margin: auto;
     margin-top: 40px;
@@ -221,8 +218,10 @@ header .nav_menu{
 #home #outservice {
     margin-bottom: 0px;
     width: 1280px;
+    height: 2580px;
     /* background: #0768AC;
     opacity: 5%; */
+    background-color: #f4f8fb;
 }
 
 #home #outservice .outservice_contaiter {
@@ -253,11 +252,28 @@ header .nav_menu{
 
 }
 
+#home #outservice .outservice_description .description {
+    width: 1280px;
+    height: 347px;
+    margin: 0px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #home #outservice .outservice_description .os_description {
     width: 1280px;
     height: 347px;
     margin: 0px;
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#home #outservice .outservice_description .description .figure_img{
+    width: 463px;
+    height: 347px;
+    margin: 0px;
 }
 
 #home #outservice .outservice_description .os_description .figure_img{
@@ -266,15 +282,15 @@ header .nav_menu{
     margin: 0px;
 }
 
-#home #outservice .outservice_description .os_description .description_text {
+#home #outservice .outservice_description .description .description_text {
     width: 817px;
 }
 
-#home #outservice .outservice_description .os_description .description__text {
-    width: 817px;
+#home #outservice .outservice_description .os_description .os_description_text {
+    width: 778px;
 }
 
-#home #outservice .outservice_description .os_description .description_text .figure_title {
+#home #outservice .outservice_description .description .description_text .figure_title {
     width: 315px;
     height: 140px;
     margin: 0px;
@@ -285,7 +301,7 @@ header .nav_menu{
     color: #FFFFFF;
     font-size: 1.88rem;
 }
-#home #outservice .outservice_description .os_description .description_text .figure_text {
+#home #outservice .outservice_description .description .description_text .figure_text {
     width: 629px;
     height: 140px;
     margin: 0px;
@@ -296,7 +312,7 @@ header .nav_menu{
     font-size: 1rem;
 }
 
-#home #outservice .outservice_description .os_description .description_text .figure__title {
+#home #outservice .outservice_description .os_description .os_description_text .os_figure_title {
     width: 315px;
     height: 140px;
     margin: 0px;
@@ -306,9 +322,10 @@ header .nav_menu{
     color: #FFFFFF;
     font-size: 1.88rem;
     background-color: #18853B;
+    float: right;
 }
 
-#home #outservice .outservice_description .os_description .description_text .figure__text {
+#home #outservice .outservice_description .os_description .os_description_text .os_figure_text {
     width: 629px;
     height: 140px;
     margin: 0px;
@@ -317,9 +334,157 @@ header .nav_menu{
     display: flex;
     border: 3px solid #18853B;
     font-size: 1rem;
+    float: right;
 }
 
-#home #contact {
+#home #cooperative{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    width: 944px;
+    margin: auto;
+}
+#home #cooperative .cooperative_title{
+    font-size: 30px;
+    color: #F6AD3C;
+    font-weight: bold;
+    width: 100%;
+}
+
+#home #cooperative .cooperative_container {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#home #cooperative .cooperative_container .cooperative_date {
+    width: 100px;
+}
+
+#home #cooperative .cooperative_container .cooperative_text {
+    width: 800px;
+}
+
+#home #cooperative .cooperative_container .cooperative_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7E7E7E;
+}
+
+#home #cooperative .news_btn {
+    font-size: 1.1rem;
+    border: 1px solid #111111;
+    width: 190px;
+    height: 40px;
+    line-height: 1.5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#home #product .news_btn {
+    font-size: 1.1rem;
+    border: 1px solid #111111;
+    width: 120px;
+    height: 40px;
+    line-height: 1.5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#home #google_map {
     width: 1280px;
-    margin: 0px;
+    height: 400px;
+    background-color: #f4f4f4;
+}
+
+#home #google_map #map_canvas iframe{ 
+    width: 1280px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#home #product{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    width: 1280px;
+    height: 840px;
+    background-color: #f5f5ef;
+}
+#home #product .product_description{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 944px;
+    margin: auto;
+}
+
+#home #product .blog_title{
+    font-size: 30px;
+    color: #F6AD3C;
+    font-weight: bold;
+    width: 944px;
+}
+
+#home #product .product_description .product_img {
+    display: flex;
+    justify-content: space-between;
+    width: 944px;
+}
+
+#home #product .product_description .product_img .img_product_left {
+    width: 300px;
+    height: 240px;
+}
+
+#home #product .product_description .product_img .img_product_center {
+    width: 300px;
+    height: 240px;
+}
+
+#home #product .product_description .product_img .img_product_right {
+    width: 300px;
+    height: 240px;
+}
+
+.footer {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.footer .footer_logo {
+    width: 69px;
+    height: 38px;
+}
+
+.footer .fb_logo {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .ft_logo {
+    width: 100px;
+    text-align: right;
+}
+
+.footer .copyright {
+    width: 800px;
+    text-align: center;
+}
+
+.footer .privacy {
+    width: 200px;
+    text-align: center;
+}
+
+.footer .fb_img {
+    width: 50px;
+    text-align: center;
 }
