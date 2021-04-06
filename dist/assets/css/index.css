@@ -1,69 +1,5 @@
 @import url();
-body{
-    width: 1280px;
-    margin: auto;
-}
-
 /* css backgroud */
-
-/* css color */
-a {
-    text-decoration: none;
-}
-
-.mgt_10 {
-    margin-top: 10px;
-}
-
-.mgt_20 {
-    margin-top: 20px;
-}
-
-.mgt_30 {
-    margin-top: 30px;
-}
-
-.mgt_70 {
-    margin-top: 70px;
-}
-
-.mgb_40 {
-    margin-bottom: 40px;
-}
-
-.mgb_30 {
-    margin-bottom: 30px;
-}
-
-.lh_30 {
-    line-height: 30px;
-}
-.lh_50 {
-    line-height: 50px;
-}
-/* css font-size */
-.fs_16 {
-    font-size: 1rem;
-}
-.fs_19 {
-    font-size: 1.2rem;
-}
-.fs_25 {
-    font-size: 1.6rem;
-}
-.fs_28 {
-    font-size: 1.8rem;
-}
-.fs_30 {
-    font-size: 1.88rem;
-}
-/* css font */
-.font_regular {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.font_notosan {
-    font-family: 'Noto Sans JP', sans-serif;
-}
 /* -------------------------- */
 /* css head */
 header {
@@ -201,7 +137,7 @@ header .nav_menu{
 #home #news_replace{
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1100px;
+    width: 944px;
     margin: auto;
 }
 #home #news_replace .news_title{
@@ -222,7 +158,7 @@ header .nav_menu{
 }
 
 #home #news_replace .news_container .news_text {
-    width: 920px;
+    width: 800px;
 }
 
 #home #news_replace .news_container .row {
@@ -243,10 +179,21 @@ header .nav_menu{
     margin-top: 40px;
 }
 
+#home #outservice .news_btn {
+    font-size: 1.1rem;
+    border: 1px solid #111111;
+    width: 190px;
+    height: 40px;
+    line-height: 0.5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
 #home #about {
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1100px;
+    width: 944px;
     margin: auto;
 }
 
@@ -272,15 +219,107 @@ header .nav_menu{
 }
 
 #home #outservice {
-    margin-top: 0px;
     margin-bottom: 0px;
-    width: 1100px;
-    margin: auto;
+    width: 1280px;
+    /* background: #0768AC;
+    opacity: 5%; */
 }
 
-#home #outservice .outservice_title{
+#home #outservice .outservice_contaiter {
+    width: 944px;
+    margin: 0 auto;
+}
+
+#home #outservice .outservice_contaiter .outservice_title{
     font-size: 30px;
     color: #F6AD3C;
     font-weight: bold;
     width: 100%;
+    margin-top: 30px;
+}
+
+#home #outservice .outservice_contaiter .img_char {
+    margin: 0px;
+    padding: 0px;
+}
+
+#home #outservice .outservice_contaiter .img_char .img_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#home #outservice .outservice_description {
+
+}
+
+#home #outservice .outservice_description .os_description {
+    width: 1280px;
+    height: 347px;
+    margin: 0px;
+    display: flex;
+}
+
+#home #outservice .outservice_description .os_description .figure_img{
+    width: 463px;
+    height: 347px;
+    margin: 0px;
+}
+
+#home #outservice .outservice_description .os_description .description_text {
+    width: 817px;
+}
+
+#home #outservice .outservice_description .os_description .description__text {
+    width: 817px;
+}
+
+#home #outservice .outservice_description .os_description .description_text .figure_title {
+    width: 315px;
+    height: 140px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #18853B;
+    color: #FFFFFF;
+    font-size: 1.88rem;
+}
+#home #outservice .outservice_description .os_description .description_text .figure_text {
+    width: 629px;
+    height: 140px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 3px solid #18853B;
+    font-size: 1rem;
+}
+
+#home #outservice .outservice_description .os_description .description_text .figure__title {
+    width: 315px;
+    height: 140px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 1.88rem;
+    background-color: #18853B;
+}
+
+#home #outservice .outservice_description .os_description .description_text .figure__text {
+    width: 629px;
+    height: 140px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 3px solid #18853B;
+    font-size: 1rem;
+}
+
+#home #contact {
+    width: 1280px;
+    margin: 0px;
 }
