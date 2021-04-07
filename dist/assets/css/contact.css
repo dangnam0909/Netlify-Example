@@ -10,7 +10,7 @@
 .contact .section {
     width: 944px;
     margin: 0px auto;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .contact .section .contact_title{
@@ -42,4 +42,21 @@
     background-color: #EEEEEE;
     margin-bottom: 20px;
     border: none;
+}
+
+.contact .section .input_description {
+    width: 100%;
+    height: 241px;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.contact .section figure {
+    text-align: center;
+}
+
+.contact .section .form-wrap .recaptcha {
+    width: 300px;
+    height: 100px;
 }
