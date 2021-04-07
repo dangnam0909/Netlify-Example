@@ -1,0 +1,47 @@
+@import url(header.css?20210406);
+@import url(footer.css?20210406);
+
+/* css privacy */
+.contact_confirm {
+    margin: 0px auto;
+    width: 1280px;
+}
+
+.contact_confirm .section {
+    width: 944px;
+    margin: 0px auto;
+    margin-bottom: 90px;
+}
+
+.contact_confirm .section .confirm_title{
+    font-size: 30px;
+    color: #111111;
+}
+
+.contact_confirm .section .container {
+    width: 944px;
+}
+
+.contact_confirm .section .container .confirm_text {
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact_confirm .section .btn_confirm {
+    width: 100px;
+    height: 50px;
+    background-color: #18853B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.p_0 {
+    padding: 0px;
+}
+
+.txt_center {
+    text-align: center;
+}

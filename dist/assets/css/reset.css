@@ -197,6 +197,10 @@ button:not(:target) {
     margin-top: 70px;
 }
 
+.mgt_150 {
+    margin-top: 150px;
+}
+
 .mgb_40 {
     margin-bottom: 40px;
 }

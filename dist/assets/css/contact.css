@@ -1,0 +1,45 @@
+@import url(header.css?20210406);
+@import url(footer.css?20210406);
+
+/* css contact */
+.contact {
+    margin: 0px auto;
+    width: 1280px;
+}
+
+.contact .section {
+    width: 944px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.contact .section .contact_title{
+    font-size: 30px;
+    color: #F6AD3C;
+    font-weight: bold;
+}
+
+.contact .section .p_contact {
+    font-size: 16px;
+    color: #111111;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact .section label {
+    font-size: 16px;
+    color: #111111;
+}
+
+.contact .section label span {
+    font-size: 16px;
+    color: red;
+}
+
+.contact .section .contact_input {
+    width: 100%;
+    height: 40px;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    border: none;
+}

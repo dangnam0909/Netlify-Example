@@ -1,0 +1,44 @@
+@import url(header.css?20210406);
+@import url(footer.css?20210406);
+
+/* css privacy */
+.privacy {
+    margin: 0px auto;
+    width: 1280px;
+}
+
+.privacy .section {
+    width: 944px;
+    margin: 0px auto;
+    margin-bottom: 90px;
+}
+
+.privacy .section .privacy_title{
+    font-size: 30px;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+.privacy .section .container {
+    width: 944px;
+}
+
+.privacy .section .container .h_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.privacy .section .container .p_privacy {
+    font-size: 16px;
+}
+
+.privacy .section .container .ul_text {
+}
+
+.privacy .section .container .sp_text {
+    color: #18853B;
+}
+
+.p_0 {
+    padding: 0px;
+}

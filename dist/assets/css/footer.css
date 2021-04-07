@@ -1,0 +1,38 @@
+.footer {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.footer .footer_logo {
+    width: 69px;
+    height: 38px;
+}
+
+.footer .fb_logo {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .ft_logo {
+    width: 100px;
+    text-align: right;
+}
+
+.footer .copyright {
+    width: 800px;
+    text-align: center;
+}
+
+.footer .privacy {
+    width: 200px;
+    text-align: center;
+}
+
+.footer .fb_img {
+    width: 50px;
+    text-align: center;
+}

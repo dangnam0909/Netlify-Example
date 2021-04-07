@@ -1,0 +1,63 @@
+@import url(header.css?20210406);
+@import url(footer.css?20210406);
+
+/* css kumiai */
+.kumiai {
+    margin: 0px auto;
+    width: 1280px;
+}
+
+.kumiai .section {
+    width: 944px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.kumiai .section .kumiai_title{
+    font-size: 30px;
+    color: #F6AD3C;
+    font-weight: bold;
+}
+
+.kumiai .section .container {
+    width: 944px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kumiai .section .container .kumiai_left{
+    width: 300px;
+    height: 140px;
+    background-color: #DEDDCA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.kumiai .section .container .kumiai_center{
+    width: 300px;
+    height: 140px;
+    background-color:#DEDDCA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.kumiai .section .container .kumiai_right{
+    width: 300px;
+    height: 140px;
+    background-color: #DEDDCA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.kumiai .section .container .p_kumiai {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    width: 241px;
+}
+
