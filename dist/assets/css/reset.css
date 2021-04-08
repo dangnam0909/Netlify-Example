@@ -177,6 +177,11 @@ button:not(:target) {
 }
 
 /* css color */
+
+.color_green {
+    color: #18853B;
+}
+
 .mg_0 {
     margin: 0px;
 }
@@ -242,6 +247,23 @@ button:not(:target) {
 .fs_36 {
     font-size: 2.25rem;
 }
+
+.d-flex-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.just-content-center {
+    justify-content: center;
+}
+
+.al-item-center {
+    align-items: center;
+}
+
 /* css font */
 .font_regular {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

@@ -6,63 +6,153 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* margin: auto; */
 }
 
 header .logo {
-    width: 115px;
+    width: 85px;
     height: 64px;
 }
 
-header .head_title .p_title{
-   font-weight: bold;
-   width: 419px;
-   font-size: 1.88rem;
+header .head_title {
+    line-height: 22px;
+}
+
+header .head_title .p_title {
+    font-weight: bold;
+    width: 419px;
+    font-size: 1.88rem;
 }
 
 header .head_title span {
     width: 419px;
     font-weight: 100;
-    font-size: 1.15rem;
+    font-size: 1.17rem;
 }
 
-header .nav_menu{
+header .nav_menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: relative;
     -webkit-transition: all .5s;
     transition: all .5s;
     /* width: 746px; */
-  }
-  
-  header .nav_menu ul {
+}
+
+header .nav_menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     list-style-type: none;
-  }
-  
-  header .nav_menu ul li {
+}
+
+header .nav_menu ul li {
     padding-left: 40px;
-  }
-  
-  header .nav_menu ul li a {
+}
+
+header .nav_menu ul li a {
     font-size: 16px;
     color: #2e2e2e;
-  }
-  
-  header .nav_menu ul li a:hover {
+}
+
+header .nav_menu ul li a:hover {
     opacity: 0.8;
     -webkit-transition: ease-out .3s;
     transition: ease-out .3s;
-  }
-  
+}
+
+header .nav_logo {
+    display: none;
+}
+
 /* ------------------ */
+@media screen and (max-width: 1024px) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .logo {
+        padding: 5px;
+    }
+    header .head_title {
+        line-height: 22px;
+    }
+    header .head_title .p_title {
+        width: 390px;
+        font-size: 1.88rem;
+    }
+    header .head_title span {
+        width: 390px;
+        font-size: 1.17rem;
+    }
+
+    header .nav_logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 90%;
+    }
+    header .logo {
+        padding: 5px;
+    }
+    header .head_title {
+        line-height: 22px;
+    }
+    header .head_title .p_title {
+        width: 390px;
+        font-size: 1.88rem;
+    }
+    header .head_title span {
+        width: 390px;
+        font-size: 1.17rem;
+    }
+
+    header .nav_menu {
+        display: none;
+    }
+
+    header .nav_logo {
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    header {
+        width: 50%;
+    }
+    header .logo {
+        padding: 5px;
+    }
+    header .head_title {
+        line-height: 22px;
+    }
+    header .head_title .p_title {
+        width: 100%;
+        font-size: 1.88rem;
+    }
+    header .head_title span {
+        width: 390px;
+        font-size: 1.17rem;
+    }
+
+    header .nav_menu {
+        display: none;
+    }
+
+    header .nav_logo {
+        display: inline;
+    }
+}
