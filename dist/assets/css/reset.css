@@ -1,9 +1,9 @@
 /* all tags style ------------------------------------------------------------------------------- */
-/* * {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+}
 
 /* html style ----------------------------------------------------------------------------------- */
 html {
@@ -17,8 +17,8 @@ html {
 /* body style ----------------------------------------------------------------------------------- */
 body {
     position: relative;
-    width: 1280px;
-    /* color: #333333; */
+    width: 100%;
+    color: #333333;
     font: normal normal 300 1.6rem/1.6 "Noto Sans JP", YuGothic, "Yu Gothic", "-apple-system", "BlinkMacSystemFont", ".SFNSDisplay-Regular", "Helvetica Neue", "Verdana", "Hiragino Sans", "メイリオ", "Hiragino Kaku Gothic ProN", sans-serif;
     -webkit-text-size-adjust: 100%;
     word-wrap: break-word;
@@ -34,7 +34,7 @@ body.noscroll {
 
 /* regular anchor style ------------------------------------------------------------------------- */
 a {
-    /* color: #333333; */
+    color: #333333;
     text-decoration: none;
     cursor: pointer;
 }

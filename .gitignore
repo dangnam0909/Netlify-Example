@@ -2,3 +2,4 @@
 *.scss
 
 index.scss
+node_modules
