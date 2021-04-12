@@ -15,16 +15,17 @@ header .logo {
 
 header .head_title {
     line-height: 22px;
+    width: 419px;
 }
 
 header .head_title .p_title {
     font-weight: bold;
-    width: 419px;
+    
     font-size: 1.88rem;
 }
 
 header .head_title span {
-    width: 419px;
+    /* width: 419px; */
     font-weight: 100;
     font-size: 1.17rem;
 }
@@ -99,7 +100,7 @@ header .nav_logo {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     header {
         width: 90%;
     }
@@ -126,6 +127,69 @@ header .nav_logo {
         display: inline;
     }
 
+} */
+
+
+@media screen and (max-width: 767px) {
+	
+    header {
+        width: 90%;
+    }
+    header .logo {
+        padding: 5px;
+    }
+    header .head_title {
+        line-height: 22px;
+    }
+    header .head_title .p_title {
+        width: 390px;
+        font-size: 1.88rem;
+    }
+    header .head_title span {
+        width: 390px;
+        font-size: 1.17rem;
+    }
+
+    header .nav_menu {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		visibility: hidden;
+		position: absolute;
+		top: 0px;
+		left: 100%;
+		padding: 40px;
+		padding-top: 100px;
+		width: 100%;
+		height: calc(var(--vh, 1vh) * 100);
+		z-index: 7;
+		transition: all .5s;
+		overflow: scroll;
+	}
+
+	.nav-open header > .nav_menu {
+		visibility: visible;
+		left: 0%;
+	}
+
+	header > .nav_menu > ul {
+		display: block;
+		width: 100%;
+	}
+
+	header > .nav_menu > ul.header__sns{
+		padding-top: 40px;
+	}
+
+	header > .nav_menu > ul > li {
+		padding-bottom: 25px;
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	header > .nav_menu > ul > li a {
+		color: #2E2E2E;
+	}
 }
 
 @media screen and (max-width: 300px) {

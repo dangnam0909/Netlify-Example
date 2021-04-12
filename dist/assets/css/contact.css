@@ -56,6 +56,46 @@
     text-align: center;
 }
 
+.g-recaptcha-wrapper {
+    position: relative;
+    border: 1px solid #ededed;
+    background: #f9f9f9;
+    border-radius: 4px;
+    padding: 0;
+}
+.g-recaptcha-wrapper #topHider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px !important;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.g-recaptcha-wrapper #rightHider {
+    position: absolute;
+    top: 0;
+    left: 295px;
+    height: 100% !important;
+    width: 15px;
+    background-color: #f9f9f9;
+}
+.g-recaptcha-wrapper #leftHider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 2px;
+    background-color: #f9f9f9;
+}
+.g-recaptcha-wrapper #bottomHider {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    height: 2px !important;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
 /* @media screen  and (max-width:1024px) {
     .contact .section {
         width: 944px;

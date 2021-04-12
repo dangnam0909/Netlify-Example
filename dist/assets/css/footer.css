@@ -69,3 +69,21 @@ footer .footer-right .footer_sns .fb_img {
     text-indent: -9999em;
     transition: all .5s;
 }
+
+@media screen and(max-width: 1024px) {
+    .footer {
+        width: 80%;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .footer {
+        width: 80%;
+    }
+}
+
+@media screen and(max-width: 300px) {
+    .footer {
+        width: 80%;
+    }
+}

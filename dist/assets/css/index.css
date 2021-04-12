@@ -791,18 +791,26 @@
 
         #home #about {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #home #outservice {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #home #cooperative {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #home #google_map {
             width: 100%;
         }
         #home #product {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         #home #outservice .outservice__description {
@@ -828,7 +836,7 @@
             width: 100%;
         }
     
-        #home #section_title .container {
+        #home #section_title .container .p_title {
             font-size: 36px;
             margin-top: 0px;
             margin-bottom: 0px;
@@ -943,19 +951,27 @@
 
         #home #about {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #home #outservice {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #home #cooperative {
             width: 100%;
         }
         #home #google_map {
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #home #product {
             width: 100%;
             height: 1200px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         #home #section_titleimg .titleimg_info {
@@ -976,6 +992,8 @@
         #home #section_title {
             height: 530px;
             width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     
         #home #section_title .container {
@@ -1904,6 +1922,8 @@
         #home #outservice .outservice_description .os_description {
             display: table;
         }
+
+
 
 
     }
