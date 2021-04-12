@@ -222,6 +222,14 @@ button:not(:target) {
     padding: 30px;
 }
 
+.pdb_20 {
+    padding-bottom: 20px;
+}
+
+.pdb_30 {
+    padding-bottom: 30px;
+}
+
 .lh_30 {
     line-height: 30px;
 }
@@ -262,6 +270,19 @@ button:not(:target) {
 
 .al-item-center {
     align-items: center;
+}
+
+/* css background color */
+.bg_f6a {
+    background-color: #F6AD3C;
+}
+
+.bg_076 {
+    background-color: #0768AC;
+}
+
+.bg_188 {
+    background-color: #18853B;
 }
 
 /* css font */

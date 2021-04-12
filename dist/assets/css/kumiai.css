@@ -21,6 +21,7 @@
 
 .kumiai .section .container {
     width: 944px;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
 }
@@ -51,6 +52,14 @@
     align-items: center;
     display: flex;
 }
+
+/* .kumiai .section .container .kumiai_right{
+    width: 100%;
+    background-color: #DEDDCA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} */
 
 .kumiai .section .container .p_kumiai {
     justify-content: center;

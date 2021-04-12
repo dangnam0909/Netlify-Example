@@ -40,56 +40,66 @@
     padding: 0px;
 }
 
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .privacy {
-        width: 100%;
-        margin: auto;
-    }
-    .privacy .section {
-        width: 100px;
-        margin: auto;
-        margin-bottom: 70px;
-    }
-    .privacy .section .privacy_title {
-        font-size: 26px;
-        color: #2e2e2e;
-        font-weight: bold;
-    }
-    .privacy .section .container {
+        margin: 0px auto;
         width: 100%;
     }
-    .privacy .section .container .h_title {
-        font-size: 15px;
-        font-weight: bold;
-    }
-    .privacy .section .container .p_privacy {
-        font-size: 15px;
-    }
-} */
 
-/* @media screen and (max-width: 724px) {
-    .privacy {
-        width: 100%;
-        margin: auto;
-    }
     .privacy .section {
-        width: 100px;
-        margin: auto;
-        margin-bottom: 50px;
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 90px;
     }
-    .privacy .section .privacy_title {
-        font-size: 24px;
+
+    .privacy .section .privacy_title{
+        font-size: 30px;
         color: #2e2e2e;
         font-weight: bold;
     }
+
     .privacy .section .container {
         width: 100%;
     }
+
     .privacy .section .container .h_title {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
     }
+
     .privacy .section .container .p_privacy {
-        font-size: 15px;
-    }  
-}    */
+        font-size: 20px;
+    }
+} 
+
+@media screen and (max-width: 724px) {
+    .privacy {
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .privacy .section {
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 90px;
+    }
+
+    .privacy .section .privacy_title{
+        font-size: 30px;
+        color: #2e2e2e;
+        font-weight: bold;
+    }
+
+    .privacy .section .container {
+        width: 100%;
+    }
+
+    .privacy .section .container .h_title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .privacy .section .container .p_privacy {
+        font-size: 20px;
+    }
+}   
