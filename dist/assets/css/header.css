@@ -133,13 +133,14 @@ header .nav_logo {
 @media screen and (max-width: 767px) {
 	
     header {
-        width: 90%;
+        width: 100%;
     }
     header .logo {
         padding: 5px;
     }
     header .head_title {
         line-height: 22px;
+        text-align: center;
     }
     header .head_title .p_title {
         width: 390px;

@@ -2,31 +2,21 @@
 @import url(footer.css?20210406);
 
 /* css kumiai */
-.kumiai {
-    margin: 0px auto;
-    width: 1280px;
-}
-
-.kumiai .section {
-    width: 944px;
-    margin: 0px auto;
+.section {
+    margin:auto;
     margin-bottom: 50px;
 }
 
-.kumiai .section .kumiai_title{
+.section .kumiai_title{
     font-size: 30px;
     color: #F6AD3C;
     font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
 }
 
-.kumiai .section .container {
-    width: 944px;
-    /* width: 100%; */
-    display: flex;
-    justify-content: space-between;
-}
-
-.kumiai .section .container .kumiai_left{
+.section .kumiai_left{
     width: 300px;
     height: 140px;
     background-color: #DEDDCA;
@@ -35,7 +25,7 @@
     display: flex;
 }
 
-.kumiai .section .container .kumiai_center{
+.section .kumiai_center{
     width: 300px;
     height: 140px;
     background-color:#DEDDCA;
@@ -44,7 +34,7 @@
     display: flex;
 }
 
-.kumiai .section .container .kumiai_right{
+.section .kumiai_right{
     width: 300px;
     height: 140px;
     background-color: #DEDDCA;
@@ -53,15 +43,7 @@
     display: flex;
 }
 
-/* .kumiai .section .container .kumiai_right{
-    width: 100%;
-    background-color: #DEDDCA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-} */
-
-.kumiai .section .container .p_kumiai {
+.section .p_kumiai {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -118,6 +100,7 @@
         margin: 0px auto;
         margin-bottom: 50px;
     }
+    
     
     /* .kumiai .section .kumiai_title{
         font-size: 30px;

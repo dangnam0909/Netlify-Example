@@ -70,19 +70,29 @@ footer .footer-right .footer_sns .fb_img {
     transition: all .5s;
 }
 
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .footer {
-        width: 80%;
+        width: 100%;
+    }
+
+    .footer .copyright {
+        width: 50%;
+        text-align: center;
     }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .footer {
-        width: 80%;
+        width: 100%;
+    }
+
+    .footer .copyright {
+        width: 50;
+        text-align: center;
     }
 }
 
-@media screen and(max-width: 300px) {
+@media screen and (max-width: 300px) {
     .footer {
         width: 80%;
     }

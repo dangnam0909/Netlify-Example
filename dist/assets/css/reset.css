@@ -186,6 +186,10 @@ button:not(:target) {
     margin: 0px;
 }
 
+.mg_au {
+    margin: auto;
+}
+
 .mgt_10 {
     margin-top: 10px;
 }
@@ -204,6 +208,10 @@ button:not(:target) {
 
 .mgt_150 {
     margin-top: 150px;
+}
+
+.mgt_250 {
+    margin-top: 250px;
 }
 
 .mgb_40 {
@@ -254,6 +262,10 @@ button:not(:target) {
 }
 .fs_36 {
     font-size: 2.25rem;
+}
+
+.top_0 {
+    top: 0px !important;
 }
 
 .d-flex-none {
