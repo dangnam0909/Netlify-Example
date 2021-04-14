@@ -20,28 +20,25 @@
                    <span class="">OHR (Okinawa Human Resources Cooperative)</span></a> 
                    
             </div>
-            <nav class="nav_menu">
-                <ul>
-                    <li><a href="#" title="About">About</a></li>
-                    <li><a href="#" title="Our Services">Our Services</li>
-                    <li><a href="#" title="Message">Message</a></li>
-                    <li><a href="#" title="Cooperative">Cooperative</a></li>
-                    <li><a href="kumiai.html" title="News">News</a></li>
-                    <li><a href="contact.html" title="Contact">Contact</a></li>
-                </ul>
+            <nav class="nav_menu" id="myTopnav">
+                <a href="#" title="About" class="active">About</a>
+                    <a href="#" title="Our Services">Our Services</a>
+                    <a href="#" title="Message">Message</a>
+                    <a href="#" title="Cooperative">Cooperative</a>
+                    <a href="kumiai.html" title="News">News</a>
+                    <a href="contact.html" title="Contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <img src="assets/img/Group_3.svg" alt="">
+                        <!-- <i class="fa fa-bars"></i> -->
+                    </a>
             </nav>
-            <div class="nav_logo">
-                <figure>
-                    <img src="assets/img/Group_3.svg" alt="">
-                </figure>
-            </div>
         </header>
 
         <main class="contact">
             <section class="section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-6 col-md-6">
+                        <div class="col-6 col-lg-6 col-sm-8 mg_au">
                             <h1 class="mgt_30 mgb_30"><a href="/" title="contact" class="contact_title">Contact</a></h1>
                             <p class="p_contat pdb_30">以下の内容をご記入いただき、送信ボタンをクリックしてください。</p>
                             <form>
@@ -104,5 +101,15 @@
                 </div>
         </footer>
     </body>
-    <!-- <script src="assets/js/main.js"></script> -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "nav_menu") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav_menu";
+        }
+    }
+    </script>
 </html>

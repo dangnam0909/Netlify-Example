@@ -20,29 +20,26 @@
                    <span class="">OHR (Okinawa Human Resources Cooperative)</span></a> 
                    
             </div>
-            <nav class="nav_menu">
-                <ul>
-                    <li><a href="#" title="About">About</a></li>
-                    <li><a href="#" title="Our Services">Our Services</li>
-                    <li><a href="#" title="Message">Message</a></li>
-                    <li><a href="#" title="Cooperative">Cooperative</a></li>
-                    <li><a href="kumiai.html" title="News">News</a></li>
-                    <li><a href="contact.html" title="Contact">Contact</a></li>
-                </ul>
+            <nav class="nav_menu" id="myTopnav">
+                <a href="#" title="About" class="active">About</a>
+                    <a href="#" title="Our Services">Our Services</a>
+                    <a href="#" title="Message">Message</a>
+                    <a href="#" title="Cooperative">Cooperative</a>
+                    <a href="kumiai.html" title="News">News</a>
+                    <a href="contact.html" title="Contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <img src="assets/img/Group_3.svg" alt="">
+                        <!-- <i class="fa fa-bars"></i> -->
+                </a>
             </nav>
-            <div class="nav_logo">
-                <figure>
-                    <img src="assets/img/Group_3.svg" alt="">
-                </figure>
-            </div>
         </header>
 
-        <main class="privacy">
+        <main class="privacy col-6">
             <section class="section">
-                <h1 class="mgt_30 mgb_30"><a href="/" title="Privacy Policy" class="privacy_title">Privacy Policy</a></h1>
                 <div class="container">
+                    <h1 class="mgt_30 mgb_30"><a href="/" title="Privacy Policy" class="privacy_title">Privacy Policy</a></h1>
                     <div class="row">
-                        <div class="col-md-8 col-sm-8">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
                             <p class="p_privacy mg_0">本ウェブサイトは、沖縄県人材育成事業協同組合（以下「当組合」）の事業内容等を紹介するサイトです。</p>
                             <h3 class="h_title mgt_20 mg_0">個人情報保護方針</h3>
                             <p class="p_privacy mg_0">当組合は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。</p>
@@ -87,5 +84,16 @@
                 </div>
             </div>
         </footer>
+        <script src="assets/js/main.js"></script>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "nav_menu") {
+              x.className += " responsive";
+            } else {
+              x.className = "nav_menu";
+            }
+        }
+        </script>
     </body>
 </html>

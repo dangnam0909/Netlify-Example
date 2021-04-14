@@ -3,8 +3,15 @@
 
 /* css kumiai */
 .section {
-    margin:auto;
+    margin: auto;
     margin-bottom: 50px;
+}
+
+.section .kumiai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .section .kumiai_title{
@@ -16,117 +23,95 @@
     width: 100%;
 }
 
-.section .kumiai_left{
-    width: 300px;
+.section .kumiai .kumiai_left{
+    width: 32%;
     height: 140px;
     background-color: #DEDDCA;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 18px;
 }
 
-.section .kumiai_center{
-    width: 300px;
-    height: 140px;
-    background-color:#DEDDCA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.section .kumiai_right{
-    width: 300px;
-    height: 140px;
-    background-color: #DEDDCA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.section .p_kumiai {
+.section .kumiai .kumiai_left .p_kumiai {
     justify-content: center;
     align-items: center;
     display: flex;
     font-size: 18px;
     text-align: center;
-    width: 241px;
 }
 
 @media screen and (max-width: 1024px) {
-    .kumiai {
-        width: 100%;
+    .section .kumiai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
     }
     
-    .kumiai .section {
-        width: 100%;
-        margin: 0px auto;
-        margin-bottom: 50px;
-    }
-    
-    /* .kumiai .section .kumiai_title{
+    .section .kumiai_title{
         font-size: 30px;
-    }
-    
-    .kumiai .section .container {
+        color: #F6AD3C;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
         width: 100%;
     }
     
-    .kumiai .section .container .kumiai_left{
-        width: 100%;
+    .section .kumiai .kumiai_left{
+        width: 48%;
+        height: 140px;
+        background-color: #DEDDCA;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 18px;
     }
     
-    .kumiai .section .container .kumiai_center{
-        width: 100%;
-    }
-    
-    .kumiai .section .container .kumiai_right{
-        width: 100%;
-    }
-    
-    .kumiai .section .container .p_kumiai {
+    .section .kumiai .kumiai_left .p_kumiai {
+        justify-content: center;
+        align-items: center;
+        display: flex;
         font-size: 18px;
         text-align: center;
-        width: 100%;
-    } */
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
-    .kumiai {
+    .section .kumiai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .section .kumiai_title{
+        font-size: 26px;
+        color: #F6AD3C;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
         width: 100%;
     }
     
-    .kumiai .section {
+    .section .kumiai .kumiai_left{
         width: 100%;
-        margin: 0px auto;
-        margin-bottom: 50px;
+        height: 140px;
+        background-color: #DEDDCA;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 18px;
     }
     
-    
-    /* .kumiai .section .kumiai_title{
-        font-size: 30px;
-    }
-    
-    .kumiai .section .container {
-        width: 100%;
-    }
-    
-    .kumiai .section .container .kumiai_left{
-        width: 100%;
-    }
-    
-    .kumiai .section .container .kumiai_center{
-        width: 100%;
-    }
-    
-    .kumiai .section .container .kumiai_right{
-        width: 100%;
-    }
-    
-    .kumiai .section .container .p_kumiai {
+    .section .kumiai .kumiai_left .p_kumiai {
+        justify-content: center;
+        align-items: center;
+        display: flex;
         font-size: 18px;
         text-align: center;
-        width: 100%;
-    } */
+    }
 }
 
 @media screen and (max-width: 300px) {
