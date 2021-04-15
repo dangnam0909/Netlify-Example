@@ -17,7 +17,7 @@
     transition: all .5s;
 }
 
-footer small {
+.footer small {
     display: block;
     color: #2E2E2E;
     text-align: center;
@@ -28,7 +28,7 @@ footer small a {
     color: #2E2E2E;
 }
 
-footer .footer-right {
+.footer .footer-right {
     display: flex;
     align-items: center;
 }
@@ -39,7 +39,7 @@ footer .footer-right .footer_sns {
     margin-left: 40px;
 }
 
-footer .footer-right .footer_sns a {
+.footer .footer-right .footer_sns a {
     display: inline-block;
     background-size: contain;
     background-position: center;
@@ -54,12 +54,16 @@ footer .footer-right .footer_sns a {
     text-align: center;
 }
 
+.footer .sp {
+    display: none;
+}
+
 .footer .privacy {
     width: 200px;
     text-align: center;
 }
 
-footer .footer-right .footer_sns .fb_img {
+.footer .footer-right .footer_sns .fb_img {
     background-image: url(../img/logo/logo_fb.png);
     margin-right: 15px;
     display: inline-block;
@@ -95,5 +99,33 @@ footer .footer-right .footer_sns .fb_img {
 @media screen and (max-width: 300px) {
     .footer {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footer {
+        padding: 20px 20px;
+    }
+
+    .footer .cp {
+        display: none;
+    }
+
+    .footer .privacy {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+    }
+
+    .footer .sp {
+        display: block;
+        text-align: right;
+    }
+
+    footer .footer-right .footer_sns {
+        margin-left: 20px;
+    }
+
+    .footer .footer-right {
+        width: 73%;
     }
 }
