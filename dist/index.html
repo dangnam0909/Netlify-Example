@@ -10,48 +10,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <header>
-        <a href="index.html" target="_blank"><img class="logo" src="assets/img/logo/logo.svg" alt="logo"></a>
-        <div class="head_title">
-            <a href="" class="p_title">沖縄県人材育成事業協同組合 <br />
-                <span class="">OHR (Okinawa Human Resources Cooperative)</span></a>
-
+        <div class="header_logo">
+            <a href="index.html" title="OHR" class="logo">
+                <h1>OHR</h1>
+            </a>
+            <div class="head_title">
+                <a href="" class="p_title">沖縄県人材育成事業協同組合
+                    <span class="p_title_ohr">OHR (Okinawa Human Resources Cooperative)</span></a>
+            </div>
         </div>
         <nav class="nav_menu" id="myTopnav">
-            <a href="#" title="About" class="active">About</a>
-                <a href="#" title="Our Services">Our Services</a>
-                <a href="#" title="Message">Message</a>
-                <a href="#" title="Cooperative">Cooperative</a>
-                <a href="kumiai.html" title="News">News</a>
-                <a href="contact.html" title="Contact">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <img src="assets/img/Group_3.svg" alt="">
-                    <!-- <i class="fa fa-bars"></i> -->
-                </a>
+            <a href="#" title="About" class="menu">About</a>
+            <a href="#" title="Our Services" class="menu">Our Services</a>
+            <a href="#" title="Message" class="menu">Message</a>
+            <a href="#" title="Cooperative" class="menu">Cooperative</a>
+            <a href="kumiai.html" title="News" class="menu">News</a>
+            <a href="contact.html" title="Contact" class="menu">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="assets/img/Group_3.svg" alt="">
+            </a>
         </nav>
     </header>
 
     <main id="home">
         <section id="section_titleimg">
-            <div class="container">
-                <div class="titleimg_info">
-                    <div class="col-12 col-lg-12 col-md-9 col-sm-9 mg_au"></div>
-                    <p class="title_info">アジアと沖縄の国際交流を「人材育成」を通じ促進する <br>
-                        アジア⇄沖縄のグローバルな連携で <br>
-                        ビジネス人材の“最適解”を提案します
-                    </p>
+            <div class="titleimg_info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="title_info">
+                                <p class="title_info_t">アジアと沖縄の国際交流を「人材育成」を通じ促進する </p>
+                                <p class="title_info_b">アジア⇄沖縄のグローバルな連携で <br>
+                                    ビジネス人材の“最適解”を提案します
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
             </div>
         </section>
         <section id="section_title">
             <div class="container">
-                <div class="col-12 col-lg-12 col-md-9 col-sm-9 mg_au">
+                <div class="col-12">
                     <p class="p_title">私たちOHRは <br>
                         沖縄企業とアジア諸国との人材交流を促進し <br>
                         企業と人材を成長させる <br>
@@ -62,11 +67,10 @@
                     </p>
                 </div>
             </div>
-
         </section>
         <section id="news_replace">
             <div class="container">
-                <div class="col-12 col-lg-12 col-md-9 col-sm-9 mg_au">
+                <div class="col-12">
                     <h1 class="news_title">News Release</h1>
                     <div class="news_container">
                         <div class="news_row">
@@ -90,9 +94,6 @@
                             <div class="news_date">2021.04.01</div>
                             <div class="news_text">ダミーテキストダミーテキスト</div>
                         </div>
-                        <div class="content">
-
-                        </div>
                     </div>
                     <div class="news_btn">
                         <a href="">ニュースリリース一覧</a>
@@ -102,7 +103,7 @@
         </section>
         <section id="about">
             <div class="container">
-                <div class="col-12 col-lg-12 col-md-9 col-sm-9 mg_au">
+                <div class="col-12">
                     <h1 class="about_title">About Us</h1>
                     <h2 class="h2_title"><a href="">外国人材ワンストップのサポート体制</a></h2>
                     <p class="about_text">
@@ -121,19 +122,18 @@
         </section>
         <section id="outservice">
             <div class="container">
-                <div class="outservice_contaiter">
-                    <div class="col-12 col-lg-12 col-md-9 col-sm-9 mg_au">
+                <div class="outservice_contaiter col-12">
+                    <div class="">
                         <h1 class="outservice_title">Outservice</h1>
-                        <figure class="img_char">
-                            <img src="assets/img/char.svg" alt="私たちは沖縄企業の海外進出と海外からの人材の受入れを応援します。" class="image_char">
+                        <div class="image_char">
                             <p class="img_title">
                                 私たちは沖縄企業の海外進出と海外からの人材の受入れを応援します。
                             </p>
-                        </figure>
+                        </div>
                     </div>
-
                 </div>
-                <div class="outservice_description">
+
+                <!-- <div class="outservice__description">
                     <div class="description">
                         <figure class="figure_img">
                             <img src="assets/img/image_1.svg" alt="技能実習生" />
@@ -150,6 +150,9 @@
                         </div>
                     </div>
                     <div class="os_description">
+                        <figure class="figure_img">
+                            <img src="assets/img/image_2.svg" alt="技能実習生" />
+                        </figure>
                         <div class="os_description_text">
                             <div class="os_figure_title">
                                 <p>特定技能</p>
@@ -160,9 +163,6 @@
                                 </p>
                             </div>
                         </div>
-                        <figure class="figure_img">
-                            <img src="assets/img/image_2.svg" alt="技能実習生" />
-                        </figure>
                     </div>
                     <div class="description">
                         <figure class="figure_img">
@@ -180,6 +180,9 @@
                         </div>
                     </div>
                     <div class="os_description">
+                        <figure class="figure_img">
+                            <img src="assets/img/image_4.svg" alt="技能実習生" />
+                        </figure>
                         <div class="os_description_text">
                             <div class="os_figure_title">
                                 <p>経営改善 <br />
@@ -190,9 +193,7 @@
                                     また、自主開催の「外国人受入れセミナー」は、毎月1回、ベトナムの送り出し機関とWebで繋ぎ、共同で開催している。</p>
                             </div>
                         </div>
-                        <figure class="figure_img">
-                            <img src="assets/img/image_4.svg" alt="技能実習生" />
-                        </figure>
+
                     </div>
                     <div class="description">
                         <figure class="figure_img">
@@ -208,37 +209,41 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="outservice__description">
+                </div> -->
+            </div>
+            <div class="outservice_fluid">
+                <div class="outservice_description">
                     <div class="description">
-                        <figure class="figure_img">
-                            <img src="assets/img/image_1.svg" alt="技能実習生" />
-                        </figure>
+                        <div class="figure_img">
+                            <figure>
+                                <img src="assets/img/image_1.svg" alt="技能実習生" />
+                            </figure>
+                        </div>
                         <div class="description_text">
                             <div class="figure_title">
                                 <p>技能実習生</p>
                             </div>
                             <div class="figure_text">
-                                <p class="pd_30">
+                                <p>
                                     日本企業にて技術、技能又は知識を習得するために外国人を受入れ、技能実習生の人材育成と日本で取得した技術の母国移転を図るという人的な国際貢献を目的として、法務省が実施している制度です。
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="os_description">
-                        <figure class="figure_img">
-                            <img src="assets/img/image_2.svg" alt="技能実習生" />
-                        </figure>
+                    <div class="os_description item-right">
                         <div class="os_description_text">
                             <div class="os_figure_title">
                                 <p>特定技能</p>
-                            </div> <br />
+                            </div>
                             <div class="os_figure_text">
-                                <p class="pd_30">
+                                <p>
                                     中小・小規模事業者をはじめとした深刻化する人手不足に対応するため、生産性向上や国内人材の確保のための取組を行ってもなお人材を確保することが困難な状況にある産業上の分野において、一定の専門性・技能を有し即戦力となる外国人を受け入れていく制度です。
                                 </p>
                             </div>
                         </div>
+                        <figure class="figure_img">
+                            <img src="assets/img/image_2.svg" alt="技能実習生" />
+                        </figure>
                     </div>
                     <div class="description">
                         <figure class="figure_img">
@@ -255,10 +260,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="os_description">
-                        <figure class="figure_img">
-                            <img src="assets/img/image_4.svg" alt="技能実習生" />
-                        </figure>
+                    <div class="os_description item-right">
                         <div class="os_description_text">
                             <div class="os_figure_title">
                                 <p>経営改善 <br />
@@ -269,7 +271,9 @@
                                     また、自主開催の「外国人受入れセミナー」は、毎月1回、ベトナムの送り出し機関とWebで繋ぎ、共同で開催している。</p>
                             </div>
                         </div>
-
+                        <figure class="figure_img">
+                            <img src="assets/img/image_4.svg" alt="技能実習生" />
+                        </figure>
                     </div>
                     <div class="description">
                         <figure class="figure_img">
@@ -290,73 +294,94 @@
                     <a href="">詳しくはこちら</a>
                 </div>
             </div>
-
         </section>
         <section id="cooperative">
             <div class="container">
-                <div class="col-12 col-lg-12 col-md-9 col-sm-9 mg_au">
-                    <h1 class="cooperative_title">Cooperative Information</h1>
-                    <div class="cooperative_container">
-                        <div class="cooperative_row">
-                            <div class="cooperative_date">組合名</div>
-                            <div class="cooperative_text">沖縄県人材育成事業協同組合 <br />
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="cooperative_title">Cooperative Information</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+
+                        <dl>
+                            <dt>
+                                組合名
+                            </dt>
+                            <dd>
+                                沖縄県人材育成事業協同組合<br>
                                 OHR (Okinawa Human Resources Cooperative)
-                            </div>
-                        </div>
-                        <div class="cooperative_row">
-                            <div class="cooperative_date">設立日</div>
-                            <div class="cooperative_text">2015年12月8日</div>
-                        </div>
-                        <div class="cooperative_row">
-                            <div class="cooperative_date">本部
-                            </div>
-                            <div class="cooperative_text">沖縄県那覇市西2丁目12-14
-                            </div>
-                        </div>
-                        <div class="cooperative_row">
-                            <div class="cooperative_date">Tel／Fax
-                            </div>
-                            <div class="cooperative_text">098-865-3377／098-865-3355
-                            </div>
-                        </div>
-                        <div class="cooperative_row">
-                            <div class="cooperative_date">役員
-                            </div>
-                            <div class="cooperative_text">代表理事　仲田 俊一（株式会社ジャイス 代表取締役） 代表メッセージ <br />
-                                理　事　　宮城 盛建（社会福祉法人憲章会 理事）<br />
-                                理　事　　玉城 剛　（有限会社ミナミ建設 専務取締役）<br />
-                                理　事　　照屋 健　（株式会社照屋建設 代表取締役）<br />
-                                理　事　　辻内 岳晴（株式会社Polestar Okinawa Real Management 代表取締役）<br />
-                                理　事　　東迎 光二（学校法人ゴレスアカデミー日本文化経済学院 生活指導部長）<br />
-                                理　事　　比嘉 清光（沖縄県人材育成事業協同組合 事務局長）
-                            </div>
-                        </div>
-                        <div class="cooperative_row">
-                            <div class="cooperative_date">
-                            </div>
-                            <div class="cooperative_text">職業紹介事業許可届出受理番号　47ー特ー000008
-                            </div>
-                        </div>
-                        <div class="cooperative_row mgb_70">
-                            <div class="cooperative_date">組合員企業
-                            </div>
-                            <div class="cooperative_text color_green"><a href="">組合員企業一覧はこちら</a>
-                            </div>
-                        </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                設立日
+                            </dt>
+                            <dd>
+                                2015年12月8日
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                本部
+                            </dt>
+                            <dd>
+                                沖縄県那覇市西2丁目12-14
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                Tel／Fax
+                            </dt>
+                            <dd>
+                                098-865-3377／098-865-3355
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                役員
+                            </dt>
+                            <dd>
+                                代表理事　仲田 俊一<br class="br-sp">（株式会社ジャイス 代表取締役）<br class="br-sp"><a href="/message"
+                                    class="hightlight" title="代表メッセージ">代表メッセージ</a><br><br class="br-sp">
+                                理　事　　宮城 盛建<br class="br-sp">（社会福祉法人憲章会 理事）<br><br class="br-sp">
+                                理　事　　玉城 剛<br class="br-sp">（有限会社ミナミ建設 専務取締役）<br><br class="br-sp">
+                                理　事　　照屋 健<br class="br-sp">（株式会社照屋建設 代表取締役）<br><br class="br-sp">
+                                理　事　　辻内 岳晴<br class="br-sp">（株式会社Polestar Okinawa Real Management 代表取締役）<br><br
+                                    class="br-sp">
+                                理　事　　東迎 光二<br class="br-sp">（学校法人ゴレスアカデミー日本文化経済学院 生活指導部長）<br><br class="br-sp">
+                                理　事　　比嘉 清光<br class="br-sp">（沖縄県人材育成事業協同組合 事務局長）
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                            </dt>
+                            <dd>
+                                職業紹介事業許可届出受理番号　<br class="br-sp">47ー特ー000008<br>
+                                登録支援機関登録番号　20登ー004276　
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                組合員企業
+                            </dt>
+                            <dd>
+                                <a href="/kumiai" class="hightlight" title="組合員企業一覧はこちら">組合員企業一覧はこちら</a>
+                            </dd>
+                        </dl>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="google_map">
-            <div id="map_canvas">
+            <div id="google_map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61349.62126476526!2d108.17168640539457!3d16.04724839481205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0xfc14e3a044436487!2zxJDDoCBO4bq1bmcsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1617726985696!5m2!1svi!2s"
-                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
         <section id="product">
             <div class="container">
-                <div class="product_description col-6">
+                <div class="product_description">
                     <h1 class="mg_0 blog_title">Blog</h1>
                     <div class="product_top">
                         <div class="img_product_left">
@@ -438,8 +463,8 @@
                                 <img src="assets/img/product_6.svg" alt="コラム">
                             </figure>
                             <div class="image_title">
-                                <figure class="figure_logo bg_188">
-                                    <img src="assets/img/graph001.png" alt="" class="img_logo">&nbsp;&nbsp;
+                                <figure class="figure_logo bg_076">
+                                    <img src="assets/img/label001.png" alt="" class="img_logo">&nbsp;&nbsp;
                                     <p class="img_text">コラム</p>
                                 </figure>
                             </div>
@@ -462,7 +487,7 @@
         <small class="copyright">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
         <div class="footer-right">
             <small class="privacy">
-                <a href="privacy.html" target="_blank">Privacy Policy</a>
+                <a href="privacy.html">Privacy Policy</a>
             </small>
             <div class="footer_sns">
                 <a href="" class="fb_img" title="facebook"></a>
@@ -470,16 +495,6 @@
         </div>
     </footer>
     <script src="assets/js/main.js"></script>
-    <script>
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "nav_menu") {
-          x.className += " responsive";
-        } else {
-          x.className = "nav_menu";
-        }
-    }
-    </script>
 </body>
 
 </html>
