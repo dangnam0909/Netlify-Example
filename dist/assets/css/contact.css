@@ -2,13 +2,16 @@
 @import url(footer.css?20210406);
 
 /* css contact */
+main {
+    padding: 0 0 80px 0;
+}
+
 .contact {
     margin: auto;
 }
 
 .contact .section {
-    margin: auto;
-    margin-bottom: 150px;
+    padding-top: 120px;
 }
 
 .contact .section .contact_title{
@@ -54,50 +57,32 @@
     text-align: center;
 }
 
-.g-recaptcha-wrapper {
-    position: relative;
-    border: 1px solid #ededed;
-    background: #f9f9f9;
-    border-radius: 4px;
-    padding: 0;
+
+.contact .section p.btn {
+    margin-top: 2rem;
+    text-align: center;
 }
-.g-recaptcha-wrapper #topHider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2px !important;
-    width: 100%;
-    background-color: #f9f9f9;
+  
+.contact .section p.btn a {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #18853B;
+    padding: .625em 1.825em;
+    border: solid 1px #EEEEEE;
+    border-radius: 2px;
+    font-size: 1em;
+    -webkit-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
 }
-.g-recaptcha-wrapper #rightHider {
-    position: absolute;
-    top: 0;
-    left: 295px;
-    height: 100% !important;
-    width: 15px;
-    background-color: #f9f9f9;
-}
-.g-recaptcha-wrapper #leftHider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100% !important;
-    width: 2px;
-    background-color: #f9f9f9;
-}
-.g-recaptcha-wrapper #bottomHider {
-    position: absolute;
-    bottom: 1px;
-    left: 0;
-    height: 2px !important;
-    width: 100%;
-    background-color: #f9f9f9;
+  
+.contact .section p.btn a:hover {
+    opacity: 0.8;
 }
 
 @media screen  and (max-width:1024px) {
     .contact .section {
         margin: 0px auto;
-        margin-bottom: 150px;
     }
 
     .contact .section .contact_input {
@@ -121,7 +106,6 @@
 @media screen  and (max-width:768px) {
     .contact .section {
         margin: 0px auto;
-        margin-bottom: 150px;
     }
 
     .contact .section .contact_input {

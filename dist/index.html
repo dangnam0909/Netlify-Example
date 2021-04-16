@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="/dist/assets/img/logo/favicon1.png">
     <title>Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -22,51 +25,60 @@
             <div class="head_title">
                 <a href="" class="p_title">沖縄県人材育成事業協同組合
                     <span class="p_title_ohr">OHR <wbr>(Okinawa Human Resources Cooperative)</span></a>
+                <span class="ohr">OHR</span>
             </div>
         </div>
-        <nav class="nav_menu" id="myTopnav">
-            <a href="#" title="About" class="menu">About</a>
-            <a href="#" title="Our Services" class="menu">Our Services</a>
-            <a href="#" title="Message" class="menu">Message</a>
-            <a href="#" title="Cooperative" class="menu">Cooperative</a>
-            <a href="kumiai.html" title="News" class="menu">News</a>
-            <a href="contact.html" title="Contact" class="menu">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <img src="assets/img/Group_3.svg" alt="">
-            </a>
+        <nav>
+            <ul>
+                <li class="hide-pc"><a href="index.html" title="HOME">About</a></li>
+                <li><a href="#" title="PRODUCTS">Our Services</a></li>
+                <li><a href="#" title="BUSINESS">Message</a></li>
+                <li><a href="#" title="COMPANY">Cooperative</a></li>
+                <li><a href="kumiai.html" title="CONTACT">News</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+            
         </nav>
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="menu_bg"></div>
     </header>
 
     <main id="home">
-        <section id="section_titleimg">
-            <div class="titleimg_info">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="title_info">
-                                <p class="title_info_t">アジアと沖縄の国際交流を「人材育成」を通じ促進する </p>
-                                <p class="title_info_b">アジア⇄沖縄のグローバルな連携で <br>
-                                    ビジネス人材の“最適解”を提案します
-                                </p>
+        <section id="section_top">
+            <section id="section_titleimg">
+                <div class="titleimg_info">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="title_info">
+                                    <p class="title_info_t">アジアと沖縄の国際交流を<wbr>「人材育成」<wbr>を通じ促進する </p>
+                                    <p class="title_info_b">アジア⇄沖縄の<wbr>グローバルな連携で <br>
+                                        ビジネス人材の<wbr>“最適解”を提案します
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="section_title">
-            <div class="container">
-                <div class="col-12">
-                    <p class="p_title">私たちOHRは <br>
-                        沖縄企業とアジア諸国との人材交流を促進し <br>
-                        企業と人材を成長させる <br>
-                        外国人材育成コンサルティング協同組合です。<br>
-                        <br>
-                        アジアとの地理的優位性を持つ「沖縄」を <br>
-                        “日本の玄関口”へ
-                    </p>
+            </section>
+            <section id="section_title">
+                <div class="container">
+                    <div class="col-12">
+                        <p class="p_title">私たちOHRは <br>
+                            沖縄企業とアジア諸国との人材交流を促進し <br>
+                            企業と人材を成長させる <br>
+                            外国人材育成コンサルティング協同組合です。<br>
+                            <br>
+                            アジアとの地理的優位性を持つ「沖縄」を <br>
+                            “日本の玄関口”へ
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </section>
         </section>
         <section id="news_replace">
             <div class="container">
@@ -127,7 +139,7 @@
                         <h1 class="outservice_title">Outservice</h1>
                         <div class="image_char">
                             <p class="img_title">
-                                私たちは沖縄企業の海外進出と海外からの人材の受入れを応援します。
+                                私たちは沖縄企業の<wbr>海外進出と海外からの<wbr>人材の受入れを応援します。
                             </p>
                         </div>
                     </div>
@@ -356,7 +368,7 @@
                         </div>
                         <div class="img_product_left">
                             <figure class="figure_product">
-                                <img src="assets/img/aerial-photo.svg" alt="インタビュー">
+                                <img src="assets/img/product_4.svg" alt="インタビュー">
 
                             </figure>
                             <div class="image_title">
@@ -420,6 +432,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 

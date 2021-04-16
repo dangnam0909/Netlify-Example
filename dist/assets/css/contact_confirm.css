@@ -2,9 +2,8 @@
 @import url(footer.css?20210406);
 
 /* css privacy */
-.contact_confirm {
-    margin: 0px auto;
-    width: 1280px;
+main {
+    padding: 120px 0 60px 0;
 }
 
 .contact_confirm .section {

@@ -8,33 +8,41 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/contact_confirm.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="icon" href="" sizes="">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="icon" href="/dist/assets/img/logo/favicon1.png">
+        <title>Kumiai</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
-            <a href="index.html" target="_blank"><img class="logo" src="assets/img/logo/logo.svg" alt="logo"></a>
-            <div class="head_title">
-                <a href="" class="p_title">沖縄県人材育成事業協同組合 <br />
-                   <span class="">OHR (Okinawa Human Resources Cooperative)</span></a> 
-                   
+            <div class="header_logo">
+                <a href="index.html" title="OHR" class="logo">
+                    <h1>OHR</h1>
+                </a>
+                <div class="head_title">
+                    <a href="" class="p_title">沖縄県人材育成事業協同組合
+                        <span class="p_title_ohr">OHR <wbr>(Okinawa Human Resources Cooperative)</span></a>
+                    <span class="ohr">OHR</span>
+                </div>
             </div>
-            <nav class="nav_menu">
+            <nav>
                 <ul>
-                    <li><a href="#" title="About">About</a></li>
-                    <li><a href="#" title="Our Services">Our Services</li>
-                    <li><a href="#" title="Message">Message</a></li>
-                    <li><a href="#" title="Cooperative">Cooperative</a></li>
-                    <li><a href="kumiai.html" title="News">News</a></li>
+                    <li class="hide-pc"><a href="index.html" title="HOME">About</a></li>
+                    <li><a href="#" title="PRODUCTS">Our Services</a></li>
+                    <li><a href="#" title="BUSINESS">Message</a></li>
+                    <li><a href="#" title="COMPANY">Cooperative</a></li>
+                    <li><a href="kumiai.html" title="CONTACT">News</a></li>
                     <li><a href="contact.html" title="Contact">Contact</a></li>
                 </ul>
+                
             </nav>
-            <div class="nav_logo">
-                <figure>
-                    <img src="assets/img/Group_3.svg" alt="">
-                </figure>
+            <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+            <div id="menu_bg"></div>
         </header>
 
         <main class="contact_confirm">
@@ -51,14 +59,20 @@
             </section>
         </main>
         <footer class="footer">
-            <figure class="ft_logo">
-                <img src="assets/img/logo/logo.svg" alt="logo" class="footer_logo">
-            </figure>
-            <p class="copyright">©︎2021 OHR (Okinawa Human Resources Cooperative)</p>
-            <p class="privacy"><a href="privacy.html" target="_blank" type="server_ver">Privacy Policy</a></p>
-            <figure class="fb_img"> 
-                <img src="assets/img/logo/logo_fb.png" alt="facebook" class="fb_logo">
-            </figure>
+            <a href="index.html" target="_blank" class="footer_logo" title="sample"></a>
+            <small class="copyright cp">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
+            <div class="footer-right">
+                <small class="privacy">
+                    <a href="privacy.html">Privacy Policy</a>
+                </small>
+                <small class="copyright sp">&copy; <span class="year"></span> OHR</small>
+                <div class="footer_sns">
+                    <a href="" class="fb_img" title="facebook"></a>
+                </div>
+            </div>
         </footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </html>

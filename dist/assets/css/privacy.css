@@ -2,28 +2,37 @@
 @import url(footer.css?20210406);
 
 /* css privacy */
+
+main {
+    padding: 0 0 80px 0;
+}
+/* 
 .privacy {
     margin: auto;
-}
+} */
 
 .privacy .section {
-    margin: 0px auto;
-    margin-bottom: 90px;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 
-.privacy .section .privacy_title{
-    font-size: 30px;
+.privacy .section h2{
     color: #2e2e2e;
-    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 4rem;
 }
 
-.privacy .section .h_title {
-    font-size: 16px;
-    font-weight: bold;
+.privacy .section p {
+    font-size: 1.6rem;
 }
 
-.privacy .section .p_privacy {
-    font-size: 16px;
+.privacy .section h3 {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+}
+
+p {
+    line-height: 1.8em;
 }
 
 .privacy .section .sp_text {

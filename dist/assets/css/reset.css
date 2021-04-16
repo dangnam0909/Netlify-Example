@@ -276,6 +276,10 @@ button:not(:target) {
     display: flex;
 }
 
+.mgt_0 {
+    margin-top: 0px;
+}
+
 .just-content-center {
     justify-content: center;
 }
