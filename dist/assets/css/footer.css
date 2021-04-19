@@ -9,7 +9,7 @@
 
 .footer .footer_logo {
     display: inline-block;
-    background: url(../img/logo/logo.svg) 50% 50% no-repeat;
+    background: url(../img/logo/logo-ohr.svg) 50% 50% no-repeat;
     background-size: contain;
     width: 69px;
     height: 38px;
@@ -49,23 +49,16 @@ footer .footer-right .footer_sns {
     text-indent: -9999em;
 }
 
-.footer .copyright {
-    width: 800px;
-    text-align: center;
-}
-
 .footer .sp {
     display: none;
 }
 
 .footer .privacy {
-    width: 200px;
     text-align: center;
 }
 
 .footer .footer-right .footer_sns .fb_img {
-    background-image: url(../img/logo/logo_fb.png);
-    margin-right: 15px;
+    background-image: url(../img/logo/logo-facebook.png);
     display: inline-block;
     background-size: contain;
     width: 40px;

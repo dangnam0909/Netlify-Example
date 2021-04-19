@@ -176,6 +176,11 @@ button:not(:target) {
     max-width: 0;
 }
 
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
 /* css color */
 
 .color_green {

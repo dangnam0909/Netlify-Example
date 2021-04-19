@@ -50,7 +50,7 @@ $(function () {
 		const href = $(this).attr('href').replace(/[#?](?:.*)/, '');
 		const reg = new RegExp('^' + href);
 		if (reg.test(location.pathname)) {
-				$(this).addClass('active')
+			$(this).addClass('active')
 		}
 	});
 

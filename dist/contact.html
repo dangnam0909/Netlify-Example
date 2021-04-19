@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/contact.css">
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="icon" href="/dist/assets/img/logo/favicon1.png">
+        <link rel="icon" href="/dist/assets/img/logo/favicon.png">
         <title>Contact</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     </head>
     <body>
         <header>
@@ -34,7 +35,6 @@
                     <li><a href="kumiai.html" title="CONTACT">News</a></li>
                     <li><a href="contact.html" title="Contact">Contact</a></li>
                 </ul>
-                
             </nav>
             <div id="hamburger">
                 <span></span>
@@ -43,56 +43,38 @@
             </div>
             <div id="menu_bg"></div>
         </header>
-
         <main class="contact">
             <section class="section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 col-sm-8">
                             <h1 class="mgt_30 mgb_30"><a href="/" title="contact" class="contact_title">Contact</a></h1>
-                            <p class="p_contat pdb_30">以下の内容をご記入いただき、送信ボタンをクリックしてください。</p>
+                            <p class="p_contat pdb_30">以下の内容をご記入いただき、送信ボタンをクリック<wbr>してください。</p>
                             <form action="/contact_confirm" id="form" name="form" method="POST" data-netlify="true"
                             data-netlify-recaptcha="true" netlify-honeypot="bot-field">
-                                <label>
-                                    お名前<span>（必須）</span>
-                                </label>
-                                <input type="text" value="" name="" class="contact_input">
-                                <label>
-                                    会社名
-                                </label>
-                                <input type="text" value="" name="" class="contact_input" required>
-                                <label>
-                                    メールアドレス <span>（必須）</span>
-                                </label>
-                                <input type="text" value="" name="" class="contact_input" required>
-                                <label>
-                                    メールアドレス <span class="">（確認用） </span>
-                                </label>
-                                <input type="text" value="" name="" class="contact_input">
+                                <label class="need" for="name">お名前</label>
+                                <input type="text" id="name" name="お名前" required>
+                                <label for="company">会社名</label>
+                                <input type="text" id="company" name="会社名">
+                                <label class="need" for="email">メールアドレス</label>
+                                <input type="email" id="email" name="メールアドレス" required>
+                                <label for="email_confirmation">メールアドレス</label>
+                                <input type="text" id="email_confirmation" name="メールアドレス">
                                 <p class="pdb_20">※キャリアメール（au,docomoなど）以外でお願いします。キャリアメールですと、うまく返信ができない場合がございます。<br>
                                     　何かしらの理由でメールが返信できない場合は、お電話させていただきますので、予めご了承ください。
-                                    </p>
-                                <label>
-                                    電話番号 
-                                </label>
-                                <input type="text" value="" name="" class="contact_input">
-                                <label>
-                                    件名 <span>（必須）</span> 
-                                </label>
-                                <input type="text" value="" name="" class="contact_input">
-                                <label>
-                                    お問い合わせ内容 <span class="p_title">（必須）</span>
-                                </label>
-                                <input type="text" value="" name="" class="input_description">
+                                </p>
+                                <label class="need" for="tel">電話番号</label>
+                                <input type="tel" id="tel" name="電話番号" required>
+                                <label for="subject">件名</label>
+                                <input type="text" id="subject" name="件名">
+                                <label class="need" for="message">お問い合わせ内容</label>
+                                <textarea id="message" name="お問い合わせ内容" cols="30" rows="10" required> </textarea>
+                                <div class="g-recaptcha d-flex-center" data-sitekey="6LeMwa8aAAAAAOGXJeGV9gci-JLXKt9buW-JLMzk"></div>
+                                <p class="btn"><a href="/contact_confirm" title="送信">送 信</a></p>
                             </form>
-                            <figure>
-                                <img src="assets/img/contact_checked.svg" alt="">
-                            </figure>
-                            <p class="btn"><a href="contact_confirm.html" title="送信">送 信</a></p>
                         </div>
                     </div>
                 </div>
-                
             </section>
         </main>
         <footer class="footer">
@@ -112,4 +94,5 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/function.js"></script>
 </html>
