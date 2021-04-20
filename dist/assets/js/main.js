@@ -98,4 +98,8 @@ $(function () {
 		});
 	}
 
+	// for contact page
+	else if (document.getElementById('contact')) {
+		$('#form').sendForm();
+	}
 });

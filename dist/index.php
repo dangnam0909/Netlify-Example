@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="/dist/assets/img/logo/favicon.png">
+    <link rel="icon" href="../img/logo/favicon.png">
     <title>Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="header_logo">
-            <a href="index.html" title="OHR" class="logo">
+            <a href="index.php" title="OHR" class="logo">
                 <h1>OHR</h1>
             </a>
             <div class="head_title">
@@ -28,12 +28,12 @@
         </div>
         <nav>
             <ul>
-                <li class="hide-pc"><a href="index.html" title="HOME">About</a></li>
+                <li class="hide-pc"><a href="index.php" title="HOME">About</a></li>
                 <li><a href="#" title="PRODUCTS">Our Services</a></li>
                 <li><a href="#" title="BUSINESS">Message</a></li>
                 <li><a href="#" title="COMPANY">Cooperative</a></li>
-                <li><a href="kumiai.html" title="CONTACT">News</a></li>
-                <li><a href="contact.html" title="Contact">Contact</a></li>
+                <li><a href="kumiai.php" title="CONTACT">News</a></li>
+                <li><a href="contact.php" title="Contact">Contact</a></li>
             </ul>
         </nav>
         <div id="hamburger">
@@ -415,7 +415,7 @@
         <small class="copyright cp">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
         <div class="footer-right">
             <small class="privacy">
-                <a href="privacy.html">Privacy Policy</a>
+                <a href="privacy.php">Privacy Policy</a>
             </small>
             <small class="copyright sp">&copy; <span class="year"></span> OHR</small>
             <div class="footer_sns">

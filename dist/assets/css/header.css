@@ -43,7 +43,7 @@ header .header_logo .logo {
 
 header .header_logo .logo h1 {
     display: inline-block;
-    background: url(/dist/assets/img/logo/logo-ohr.svg) 50% 50% no-repeat;
+    background: url(../img/logo/logo-ohr.svg) 50% 50% no-repeat;
     background-size: contain;
     width: 116px;
     height: 64px;

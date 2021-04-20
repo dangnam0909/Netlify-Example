@@ -51,7 +51,7 @@ main {
     text-align: center;
 }
   
-.contact .section form p.btn a {
+.contact .section form .btn {
     display: inline-block;
     text-align: center;
     color: #fff;
@@ -62,6 +62,7 @@ main {
     font-size: 1em;
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
+    margin-top: 20px;
 }
 
 .contact .section form .need::after {
@@ -78,14 +79,21 @@ main {
     opacity: 0.8;
 }
 
-@media screen  and (max-width:1024px) {
-    .contact .section {
-        margin: 0px auto;
-    }
-} 
+.contact .section form #mail-status {
+    padding: 12px 20px;
+    width: 100%;
+    display: none;
+    font-size: 1em;
+    font-family: "Georgia", Times, serif;
+    color: rgb(40, 40, 40);
+    margin-top: 20px;
+}
 
-@media screen  and (max-width:768px) {
-    .contact .section {
-        margin: 0px auto;
-    }
-} 
+.contact .section form .error {
+    background-color: #EEEEEE;
+    margin-bottom: 40px;
+}
+
+.contact .section form .success {
+    background-color: #18853B;
+}

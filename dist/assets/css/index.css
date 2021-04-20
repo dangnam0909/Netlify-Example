@@ -200,7 +200,7 @@
     }
 
     #home #outservice .outservice_contaiter .image_char {
-        background-image: url(/dist/assets/img/char.svg);
+        background-image: url(../img/char.svg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
