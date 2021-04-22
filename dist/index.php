@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="../img/logo/favicon.png">
+    <link rel="icon" href="assets/img/logo/favicon.png">
     <title>Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -276,7 +276,7 @@
                                 役員
                             </dt>
                             <dd>
-                                代表理事　仲田 俊一<br class="br-sp">（株式会社ジャイス 代表取締役）<br class="br-sp"><a href="/message"
+                                代表理事　仲田 俊一<br class="br-sp">（株式会社ジャイス 代表取締役）<br class="br-sp"><a href="#"
                                     class="hightlight" title="代表メッセージ">代表メッセージ</a><br><br class="br-sp">
                                 理　事　　宮城 盛建<br class="br-sp">（社会福祉法人憲章会 理事）<br><br class="br-sp">
                                 理　事　　玉城 剛<br class="br-sp">（有限会社ミナミ建設 専務取締役）<br><br class="br-sp">
@@ -300,7 +300,7 @@
                                 組合員企業
                             </dt>
                             <dd>
-                                <a href="/kumiai" class="hightlight" title="組合員企業一覧はこちら">組合員企業一覧はこちら</a>
+                                <a href="kumiai.php" class="hightlight" title="組合員企業一覧はこちら">組合員企業一覧はこちら</a>
                             </dd>
                         </dl>
                     </div>
@@ -411,7 +411,7 @@
         </section>
     </main>
     <footer class="footer">
-        <a href="index.html" target="_blank" class="footer_logo" title="sample"></a>
+        <a href="index.php" target="_blank" class="footer_logo" title="sample"></a>
         <small class="copyright cp">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
         <div class="footer-right">
             <small class="privacy">
