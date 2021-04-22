@@ -32,8 +32,8 @@
                 <li><a href="#" title="PRODUCTS">Our Services</a></li>
                 <li><a href="#" title="BUSINESS">Message</a></li>
                 <li><a href="#" title="COMPANY">Cooperative</a></li>
-                <li><a href="kumiai.php" title="CONTACT">News</a></li>
-                <li><a href="contact.php" title="Contact">Contact</a></li>
+                <li><a href="kumiai.php" title="KUMIAI">News</a></li>
+                <li><a href="contact.php" title="CONTACT">Contact</a></li>
             </ul>
         </nav>
         <div id="hamburger">

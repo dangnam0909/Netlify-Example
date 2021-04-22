@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body style="padding-top: 106.672px;">
         <header>
             <div class="header_logo">
                 <a href="index.html" title="OHR" class="logo">
@@ -45,14 +45,18 @@
         </header>
         <main class="contact_confirm">
             <section class="section">
-                <h1 class="mgt_30 mgb_30 txt_center"><a href="/" title="contact confrim" class="confirm_title">送信完了</a></h1>
-                <div class="container txt_center">
-                    <p class="confirm_text">
-                        お問い合わせ頂き誠にありがとうございます。<br>
-                        お問い合わせ内容を確認させていただき、後ほど担当者よりご回答をさせていただきます。<br>
-                        恐れ入りますが、今しばらくお待ちいただけますよう、宜しくお願い申し上げます。<br>
-                    </p>
-                    <p class="btn_confirm">戻 る</p>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="mgb_30 txt_center"><a href="/" title="contact confrim" class="confirm_title">送信完了</a></h1>
+                        <div class="container txt_center">
+                            <p class="confirm_text">
+                                お問い合わせ頂き誠にありがとうございます。<br>
+                                お問い合わせ内容を確認させていただき、後ほど担当者よりご回答をさせていただきます。<br>
+                                恐れ入りますが、今しばらくお待ちいただけますよう、宜しくお願い申し上げます。<br>
+                            </p>
+                            <p class="btn_confirm"><a href="/" title="戻 る">戻 る</a></p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

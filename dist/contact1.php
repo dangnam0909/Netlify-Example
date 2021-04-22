@@ -1,4 +1,5 @@
 <?php
+	
 	if($_POST)
 	{
 		require('constant.php');
@@ -56,24 +57,7 @@
 			if (!$resp->isSuccess()) {
 					$output = json_encode(array('type'=>'error', 'text' => '<b>Captcha</b> Validation Required!'));
 					die($output);				
-			}	
-		}
-		
-		$toEmail = "ps2104001@gmail.com";
-		$mailHeaders = "From: " . $user_name . " <" . $user_email . ">\r\n";
-		$mailBody = "NAME: " . $user_name . "\n";
-		$mailBody = "会社名: " . $user_company . "\n";
-		$mailBody .= "メールアドレス: " . $user_email . "\n";
-		$mailBody .= "電話番号: " . $user_phone . "\n";
-		$mailBody .= "件名: " . $subject . "\n";
-		$mailBody .= "お問い合わせ内容: " . $content . "\n";
-
-		if (mail($toEmail, "Contact Mail", $mailBody, $mailHeaders)) {
-			$output = json_encode(array('type'=>'section', 'text' => 'Hi '.$user_name .', thank you for the comments. We will get back to you shortly.'));
-			die($output);
-		} else {
-			$output = json_encode(array('type'=>'error', 'text' => 'Unable to send email, please contact'.SENDER_EMAIL));
-			die($output);
+			}
 		}
 	}
 ?>

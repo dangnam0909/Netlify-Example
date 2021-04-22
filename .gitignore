@@ -3,3 +3,5 @@
 
 index.scss
 node_modules
+vendor
+recaptcha

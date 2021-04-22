@@ -52,7 +52,7 @@
                         <div class="col-12 col-lg-12 col-sm-8 message">
                             <h1 class="mgt_30 mgb_30"><a href="/" title="contact" class="contact_title">Contact</a></h1>
                             <p class="p_contat pdb_30">以下の内容をご記入いただき、送信ボタンをクリック<wbr>してください。</p>
-                            <form action="" id="form" name="form" method="POST" novalidate="novalidate"> 
+                            <form action="contact_confirm.php" id="form" name="form" method="POST" novalidate="novalidate"> 
                                 <label class="need" for="name">お名前</label>
                                 <input type="text" id="name" name="お名前" required>
                                 <label for="company">会社名</label>
@@ -67,14 +67,14 @@
                                 <label class="need" for="tel">電話番号</label>
                                 <input type="tel" id="tel" name="電話番号" required>
                                 <label for="subject">件名</label>
-                                <input type="text" id="subject" name="件名" require>
+                                <input type="text" id="subject" name="件名">
                                 <label class="need" for="message">お問い合わせ内容</label>
                                 <textarea id="message" name="お問い合わせ内容" cols="30" rows="10" required> </textarea>
                                 <div class="g-recaptcha d-flex-center" data-sitekey="<?php echo SITE_KEY; ?>"></div>
                                 <div id="mail-status"></div>
-                                <button type="submit" id="send-message" class="btn mg_au"style="display: flex;">送 信 </button>
+                                <button type="submit" id="send-message" value="send" class="btn mg_au"style="display: flex;">送 信 </button>
                             </form>
-                            <div id="loader-icon" style="display:none;"><img src="assets/img/loader.gif" /></div>
+                            <!-- <div id="loader-icon" style="display:none;"><img src="assets/img/loader.gif" /></div> -->
                         </div>
                     </div>
                 </div>
@@ -99,6 +99,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/function.js"></script>
     <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/contact.js"></script>
+    <!-- <script src="assets/js/contact.js"></script> -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </html>

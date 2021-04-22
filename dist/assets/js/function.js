@@ -3,7 +3,7 @@
 		sendForm: function () {
 			const form = this.get(0);
 
-			$(form).find('p.btn a').on({
+			$(form).find('button.btn').on({
 				click: function (e) {
 					e.preventDefault();
 

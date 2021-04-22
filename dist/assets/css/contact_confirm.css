@@ -3,34 +3,42 @@
 
 /* css privacy */
 main {
-    padding: 120px 0 60px 0;
+    padding: 0 0 80 0;
 }
 
-.contact_confirm .section {
-    width: 944px;
-    margin: 0px auto;
-    margin-bottom: 90px;
+.contact_confirm {
+    min-height: calc(100vh - 177px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .contact_confirm .section .confirm_title{
     font-size: 30px;
     color: #111111;
+    font-weight: 400;
+    text-align: center;
 }
 
-.contact_confirm .section .container {
-    width: 944px;
-}
-
-.contact_confirm .section .container .confirm_text {
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.contact_confirm .section .confirm_text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.8rem;
+    margin-bottom: 30px;
 }
 
 .contact_confirm .section .btn_confirm {
     width: 100px;
     height: 50px;
     background-color: #18853B;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
