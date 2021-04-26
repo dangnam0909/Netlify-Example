@@ -276,7 +276,7 @@
                                 役員
                             </dt>
                             <dd>
-                                代表理事　仲田 俊一<br class="br-sp">（株式会社ジャイス 代表取締役）<br class="br-sp"><a href="/message"
+                                代表理事　仲田 俊一<br class="br-sp">（株式会社ジャイス 代表取締役）<br class="br-sp"><a href="#"
                                     class="hightlight" title="代表メッセージ">代表メッセージ</a><br><br class="br-sp">
                                 理　事　　宮城 盛建<br class="br-sp">（社会福祉法人憲章会 理事）<br><br class="br-sp">
                                 理　事　　玉城 剛<br class="br-sp">（有限会社ミナミ建設 専務取締役）<br><br class="br-sp">
@@ -300,7 +300,7 @@
                                 組合員企業
                             </dt>
                             <dd>
-                                <a href="/kumiai" class="hightlight" title="組合員企業一覧はこちら">組合員企業一覧はこちら</a>
+                                <a href="kumiai.php" class="hightlight" title="組合員企業一覧はこちら">組合員企業一覧はこちら</a>
                             </dd>
                         </dl>
                     </div>
