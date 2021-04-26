@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="../img/logo/favicon.png">
+    <link rel="icon" href="/assets/img/logo/favicon.png">
     <title>Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,12 +28,12 @@
         </div>
         <nav>
             <ul>
-                <li class="hide-pc"><a href="index.php" title="HOME">About</a></li>
-                <li><a href="#" title="PRODUCTS">Our Services</a></li>
-                <li><a href="#" title="BUSINESS">Message</a></li>
-                <li><a href="#" title="COMPANY">Cooperative</a></li>
-                <li><a href="kumiai.php" title="KUMIAI">News</a></li>
-                <li><a href="contact.php" title="CONTACT">Contact</a></li>
+                <li class="hide-pc"><a href="#about" title="About">About</a></li>
+                <li><a href="#outservice" title="Our Services">Our Services</a></li>
+                <li><a href="#" title="Message">Message</a></li>
+                <li><a href="#cooperative" title="Cooperative">Cooperative</a></li>
+                <li><a href="#product" title="News">News</a></li>
+                <li><a href="contact.php" title="Contact">Contact</a></li>
             </ul>
         </nav>
         <div id="hamburger">
@@ -112,7 +112,7 @@
         <section id="about">
             <div class="container">
                 <div class="col-12">
-                    <h1 class="about_title">About Us</h1>
+                    <h1 class="about_title"><a href="/about" id="about">About Us</a></h1>
                     <h2 class="h2_title"><a href="">外国人材ワンストップのサポート体制</a></h2>
                     <p class="about_text">
                         OHRは、アジア人材の能力を経営の中枢に添え、発展を目指す企業が集まる協同組合として、2015年に設立いたしました。技能実習生や特定技能など外国人材の受入れから、人材育成に関する課題にワンストップで対応いたします。
@@ -411,7 +411,7 @@
         </section>
     </main>
     <footer class="footer">
-        <a href="index.html" target="_blank" class="footer_logo" title="sample"></a>
+        <a href="index.php" target="_blank" class="footer_logo" title="sample"></a>
         <small class="copyright cp">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
         <div class="footer-right">
             <small class="privacy">

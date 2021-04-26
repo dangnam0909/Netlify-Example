@@ -46,11 +46,6 @@ main {
     margin-top: 10px;
 }
 
-.contact .section form p.btn {
-    margin-top: 2rem;
-    text-align: center;
-}
-  
 .contact .section form .btn {
     display: inline-block;
     text-align: center;
@@ -59,10 +54,16 @@ main {
     padding: .625em 1.825em;
     border: solid 1px #EEEEEE;
     border-radius: 2px;
+    margin-top: 20px;
+    width: unset;
+    display: flex;
+}
+
+.contact .section form .btn a {
+    color: #fff;
     font-size: 1em;
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
-    margin-top: 20px;
 }
 
 .contact .section form .need::after {

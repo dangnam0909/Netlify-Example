@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/kumiai.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="../img/logo/favicon.png">
+    <link rel="icon" href="/assets/img/logo/favicon.png">
     <title>Kumiai</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
 <body style="padding-top: 85.6875px;">
     <header>
         <div class="header_logo">
-            <a href="index.html" title="OHR" class="logo">
+            <a href="index.php" title="OHR" class="logo">
                 <h1>OHR</h1>
             </a>
             <div class="head_title">
@@ -28,11 +28,11 @@
         </div>
         <nav>
             <ul>
-                <li class="hide-pc"><a href="index.php" title="HOME">About</a></li>
-                <li><a href="#" title="PRODUCTS">Our Services</a></li>
-                <li><a href="#" title="BUSINESS">Message</a></li>
-                <li><a href="#" title="COMPANY">Cooperative</a></li>
-                <li><a href="kumiai.php" title="CONTACT">News</a></li>
+                <li class="hide-pc"><a href="index.php" title="About">About</a></li>
+                <li><a href="#" title="Our Services">Our Services</a></li>
+                <li><a href="#" title="Message">Message</a></li>
+                <li><a href="#" title="Cooperative">Cooperative</a></li>
+                <li><a href="kumiai.php" title="News">News</a></li>
                 <li><a href="contact.php" title="Contact">Contact</a></li>
             </ul>
         </nav>
@@ -101,7 +101,7 @@
         </div>
     </section>
     <footer class="footer">
-        <a href="index.html" target="_blank" class="footer_logo" title="sample"></a>
+        <a href="index.php" target="_blank" class="footer_logo" title="sample"></a>
         <small class="copyright cp">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
         <div class="footer-right">
             <small class="privacy">

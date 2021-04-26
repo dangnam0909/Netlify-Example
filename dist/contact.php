@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/contact.css">
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="icon" href="../img/log/favicon.png">
+        <link rel="icon" href="/assets/img/log/favicon.png">
         <title>Contact</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,12 +30,12 @@
             </div>
             <nav>
                 <ul>
-                    <li class="hide-pc"><a href="index.php" title="HOME">About</a></li>
-                    <li><a href="#" title="PRODUCTS">Our Services</a></li>
-                    <li><a href="#" title="BUSINESS">Message</a></li>
-                    <li><a href="#" title="COMPANY">Cooperative</a></li>
-                    <li><a href="kumiai.php" title="CONTACT">News</a></li>
-                    <li><a href="contact.php" title="Contact">Contact</a></li>
+                    <li class="hide-pc"><a href="index.php" title="About">About</a></li>
+                    <li><a href="#" title="Our Services">Our Services</a></li>
+                    <li><a href="#" title="Message">Message</a></li>
+                    <li><a href="#" title="Cooperative">Cooperative</a></li>
+                    <li><a href="kumiai.php" title="News">News</a></li>
+                    <li><a href="contact.php " title="Contact">Contact</a></li>
                 </ul>
             </nav>
             <div id="hamburger">
@@ -52,36 +52,34 @@
                         <div class="col-12 col-lg-12 col-sm-8 message">
                             <h1 class="mgt_30 mgb_30"><a href="/" title="contact" class="contact_title">Contact</a></h1>
                             <p class="p_contat pdb_30">以下の内容をご記入いただき、送信ボタンをクリック<wbr>してください。</p>
-                            <form action="contact_confirm.php" id="form" name="form" method="POST" novalidate="novalidate"> 
+                            <form action="mail_send.php" id="form" name="form" method="POST"> 
                                 <label class="need" for="name">お名前</label>
-                                <input type="text" id="name" name="お名前" required>
+                                <input type="text" id="name" name="name" value="<?php echo isset($data['name']) ? $data['name'] : ''; ?>" required>
                                 <label for="company">会社名</label>
-                                <input type="text" id="company" name="会社名">
+                                <input type="text" id="company" name="company" value="<?php echo isset($data['company']) ? $data['company'] : ''; ?>">
                                 <label class="need" for="email">メールアドレス</label>
-                                <input type="email" id="email" name="メールアドレス" required>
+                                <input type="email" id="email" name="email" value="<?php echo isset($data['email']) ? $data['email'] : ''; ?>" required>
                                 <label for="email_confirmation">メールアドレス</label>
-                                <input type="text" id="email_confirmation" name="メールアドレス" required>
+                                <input type="text" id="email_confirmation" name="email_confirmation" value="<?php echo isset($data['email']) ? $data['email'] : ''; ?>" required>
                                 <p class="pdb_20">※キャリアメール（au,docomoなど）以外でお願いします。キャリアメールですと、うまく返信ができない場合がございます。<br>
                                     　何かしらの理由でメールが返信できない場合は、お電話させていただきますので、予めご了承ください。
                                 </p>
                                 <label class="need" for="tel">電話番号</label>
-                                <input type="tel" id="tel" name="電話番号" required>
+                                <input type="tel" id="tel" name="tel" value="<?php echo isset($data['tel']) ? $data['tel'] : ''; ?>" required>
                                 <label for="subject">件名</label>
-                                <input type="text" id="subject" name="件名">
+                                <input type="text" id="subject" name="subject" value="<?php echo isset($data['subject']) ? $data['subject'] : ''; ?>" >
                                 <label class="need" for="message">お問い合わせ内容</label>
-                                <textarea id="message" name="お問い合わせ内容" cols="30" rows="10" required> </textarea>
+                                <textarea id="message" name="message" cols="30" rows="10" value="<?php echo isset($data['message']) ? $data['message'] : ''; ?>" required> </textarea>
                                 <div class="g-recaptcha d-flex-center" data-sitekey="<?php echo SITE_KEY; ?>"></div>
-                                <div id="mail-status"></div>
-                                <button type="submit" id="send-message" value="send" class="btn mg_au"style="display: flex;">送 信 </button>
+                                <input type="submit" name="submit" value="送 信" class="btn mg_au">
                             </form>
-                            <!-- <div id="loader-icon" style="display:none;"><img src="assets/img/loader.gif" /></div> -->
                         </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="footer">
-            <a href="index.html" target="_blank" class="footer_logo" title="sample"></a>
+            <a href="index.php" target="_blank" class="footer_logo" title="sample"></a>
             <small class="copyright cp">&copy; <span class="year"></span> OHR (Okinawa Human Resources Cooperative)</small>
             <div class="footer-right">
                 <small class="privacy">
@@ -94,11 +92,12 @@
             </div>
         </footer>
     </body>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/function.js"></script>
+    <script src="assets/js/funct.js"></script>
     <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-    <!-- <script src="assets/js/contact.js"></script> -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="assets/js/script.js"></script>
 </html>

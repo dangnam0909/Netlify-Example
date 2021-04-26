@@ -38,11 +38,14 @@ main {
     width: 100px;
     height: 50px;
     background-color: #18853B;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+.contact_confirm .section .btn_confirm a {
+    color: #fff;
 }
 
 .p_0 {
